@@ -11,7 +11,7 @@ This project is a web application that provides a seamless and secure online Vid
 
 4. **Speech-to-Text**: During the video KYC session, the application transcribes the user's speech into text in real-time backend and stores. This feature is particularly useful for recording and storing the customer's responses to specific questions or prompts.
 
-5.**Web Application**: The initial version of the project is a web application, making it accessible from any device with a modern web browser and an internet connection.
+5. **Web Application**: The initial version of the project is a web application, making it accessible from any device with a modern web browser and an internet connection.
 
 6. **Future Mobile App Development**: In the future, the project will be extended to include a mobile application for both Android and iOS platforms, enabling customers to complete the KYC process conveniently from their smartphones.
 
@@ -23,23 +23,31 @@ This project is a web application that provides a seamless and secure online Vid
 **Speech to Text**: Speech Recognisation, Web Speech API
 
 # Implementation Details 
-1.**User Registration and Authentication**: Provide a secure way for users to create accounts and log in to the platform. This ensures that only authorized individuals can access the KYC services.
+1. **User Registration and Authentication**: Provide a secure way for users to create accounts and log in to the platform. This ensures that only authorized individuals can access the KYC services.
 
-2.**Face Recognition Module**: Develop a feature that can capture and analyze facial features of the customer during the video call. This helps verify that the person on the call is indeed the legitimate customer.
-3.**Aadhaar OCR Module**: Create a feature that can process images of Aadhaar cards provided by users. Using Optical Character Recognition (OCR) technology, this module will extract relevant information from the Aadhaar card, such as name, address, and other personal details.
-4.**Speech-to-Text Module**: Implement real-time speech transcription during the video call. This feature will convert the spoken words of the customer and the verification agent into text, providing a record of the conversation for future reference or audit purposes.
-5.**Data Encryption**: Implement robust encryption techniques to protect sensitive user data, such as personal information and video recordings, during transmission and storage. This ensures the privacy and security of customer data throughout the KYC process.
-6.**Compliance and Regulations**: Ensure that the platform adheres to relevant data protection and KYC regulations. This includes maintaining proper documentation, implementing appropriate security measures, and following best practices to maintain trust and operate legally within the industry.
+2. **Face Recognition Module**: Develop a feature that can capture and analyze facial features of the customer during the video call. This helps verify that the person on the call is indeed the legitimate customer.
+3. **Aadhaar OCR Module**: Create a feature that can process images of Aadhaar cards provided by users. Using Optical Character Recognition (OCR) technology, this module will extract relevant information from the Aadhaar card, such as name, address, and other personal details.
+
+4. **Speech-to-Text Module**: Implement real-time speech transcription during the video call. This feature will convert the spoken words of the customer and the verification agent into text, providing a record of the conversation for future reference or audit purposes.
+
+5. **Data Encryption**: Implement robust encryption techniques to protect sensitive user data, such as personal information and video recordings, during transmission and storage. This ensures the privacy and security of customer data throughout the KYC process.
+
+6. **Compliance and Regulations**: Ensure that the platform adheres to relevant data protection and KYC regulations. This includes maintaining proper documentation, implementing appropriate security measures, and following best practices to maintain trust and operate legally within the industry.
 
 # Future Enhancements
 
 **Mobile Application Development**: Extend the solution to mobile platforms (iOS and Android) to cater to a wider audience.
+
 **Enhanced Security Measures**: Implement additional security measures such as biometric authentication and multi-factor authentication for added protection.
+
 **Integration with External APIs**: Integrate with third-party identity verification services or government databases to enhance the accuracy and reliability of KYC processes.
+
 **AI/ML Integration**: Explore the use of machine learning algorithms for improved face recognition and fraud detection capabilities.
 
 # Demo 
+
 **Web Application**
+
 **LOGIN PAGE**
 ![login](https://github.com/sbanerjee29/Standard-Chartered/assets/104590401/922a5530-65c2-4104-a3a7-37635b11ddec)
 
