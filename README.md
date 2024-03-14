@@ -17,9 +17,13 @@ This project is a web application that provides a seamless and secure online Vid
 
 # Technologies Used
 **Frontend**:HTML,CSS,JavaScript
+
 **Backend**: Flask
+
 **Face Recognisation**: Dlib, OpenCv, Tensorflow
+
 **Aadhaar OCR**: Tesseract OCR, Tensorflow
+
 **Speech to Text**: Speech Recognisation, Web Speech API
 
 # Implementation Details 
