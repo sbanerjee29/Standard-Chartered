@@ -1,0 +1,164 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Video styles */
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.video-tab {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#user-video {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Record buttons styles */
+.record-buttons {
+  text-align: center;
+}
+
+.record-buttons button {
+  background-color: #042c5b; /* Green color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.record-buttons button:hover {
+  background-color: #020c49; /* Darker green color on hover */
+}
+
+.record-buttons button:focus {
+  outline: none;
+}
+
+/* Form label styles */
+.animated-label {
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.animated-label:hover {
+  transform: scale(1.05);
+}
+
+.animated-label:focus-within {
+  background-color: #e0e0e0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* File upload button styles */
+.blue-button {
+  background-color: rgb(202, 202, 222);
+  color: white;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+/* Labels container styles */
+.blue-button {
+  background-color: rgb(3, 3, 94);
+  color: white;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+/* Multi-step form styles */
+.upload-form {
+  margin-top: 20px;
+}
+
+.step {
+  display: none;
+}
+
+.step-1 {
+  display: block;
+}
+
+.progress-bar {
+  margin-top: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  height: 20px;
+  overflow: hidden;
+}
+
+.progress {
+  width: 0%;
+  height: 100%;
+  background-color: #021360; /* Blue color */
+  transition: width 0.5s ease;
+}
+
+/* Form submit button styles */
+button[type="submit"] {
+  background-color: #d2dbe1; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9; /* Darker blue color on hover */
+}
+
+button[type="submit"]:focus {
+  outline: none;
+}
+
+/* Change text color for upload labels */
+.upload-form label {
+  color: white;
+}

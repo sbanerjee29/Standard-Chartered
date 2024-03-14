@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recording Form</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="background-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="container">
+        <h1>Form</h1>
+        <div class="form">
+            <div class="video-tab">
+                <video controls id="user-video">
+                    <source src="" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="record-buttons">
+                <button id="start-recording">Start Recording</button>
+                <button id="stop-recording">Stop Recording</button>
+            </div>
+
+            <div class="labels-container">
+                <label class="animated-label" for="name">What is your Name?</label>
+                <label class="animated-label" for="dob">What is your Date of Birth?</label>
+                <label class="animated-label" for="address">What is your Address?</label>
+                <label class="animated-label" for="income">What is your Income Range?</label>
+                <label class="animated-label" for="employee-type">Type of Employment?</label>
+            </div>
+
+            <div class="upload-form">
+                <form id="multi-step-form">
+                    <div class="step step-1">
+                        <label for="aadhar">Upload Aadhar:</label>
+                        <input type="file" id="aadhar" name="aadhar" accept="image/*" required>
+                        <button class="blue-button next-step">Next</button>
+                    </div>
+                    <div class="step step-2">
+                        <label for="pan">Upload PAN:</label>
+                        <input type="file" id="pan" name="pan" accept="image/*" required>
+                        <button class="blue-button prev-step">Previous</button>
+                        <button class="blue-button next-step">Next</button>
+                    </div>
+                    <div class="step step-3">
+                        <label for="signature">Upload Signature:</label>
+                        <input type="file" id="signature" name="signature" accept="image/*" required>
+                        <button class="blue-button prev-step">Previous</button>
+                        <button type="submit" class="blue-button bold-text">Submit</button>
+                    </div>
+                </form>
+                <div class="progress-bar">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="formscript.js"></script>
+</body>
+</html>
