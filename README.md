@@ -67,7 +67,7 @@ This project is a web application that provides a seamless and secure online Vid
 ![Image 14-03-24 at 6 05 PM](https://github.com/sbanerjee29/Standard-Chartered/assets/104590401/86c382d2-dbd5-4c95-b1df-d7a468b3517e)
 
 **AADHAR OCR AND EXTRACTION**
-<img width="905" alt="Screenshot 2024-03-14 at 4 26 03 AM" src="https://github.com/sbanerjee29/Standard-Chartered/assets/104590401/428c1dec-ac82-4109-a224-4591ce0249fe">
+
 <img width="544" alt="Screenshot 2024-03-14 at 4 35 51 AM" src="https://github.com/sbanerjee29/Standard-Chartered/assets/104590401/d49d5bf1-e011-49a3-b284-ae0beed980f6">
 
 # DEMO VIDEO
